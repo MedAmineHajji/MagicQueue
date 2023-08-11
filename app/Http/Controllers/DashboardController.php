@@ -10,11 +10,6 @@ use Illuminate\Support\Facades\Storage;
 
 class DashboardController extends Controller
 {
-
-    //Show Landing Page
-    public function index(){
-        return view('landingPage');
-    }
     
     //Show Login Form
     public function login(){
@@ -25,9 +20,28 @@ class DashboardController extends Controller
     public function dashboardLanding(){
 
         $templates = File::files(resource_path('views/dashboard/templates'));
-        // $templateName = null;
+        $templateName = request('template');
 
-        return view('dashboard.index', compact('templates'));
+        if ($templateName) {
+            $templatePath = resource_path('views\dashboard\templates/' . $templateName);
+
+            if(!File::exists($templatePath)){
+                abort(404);
+            }
+            $templateContent = File::get($templatePath);
+
+            return view('dashboard.index',[
+                'template' => $templateName
+            ] ,compact('templateContent', 'templates', 'templateName'));
+        }else{
+            return view('dashboard.index', compact('templates', 'templateName'));
+        }
+        
+
+        // dd(File::exists($templatePath));
+
+        
+        // return view('dashboard.index', compact('templates', 'templateName'));
     }
 
     public function show($templateName) {

@@ -1,77 +1,16 @@
-<textarea id="full-featured">
-    <p><img style="display: block; margin-left: auto; margin-right: auto;" title="Tiny Logo" src="https://www.tiny.cloud/docs/images/logos/android-chrome-256x256.png" alt="TinyMCE Logo" width="128" height="128"></p>
-    <h2 style="text-align: center;">Welcome to the TinyMCE Cloud demo!</h2>
-    
-    <h5 style="text-align: center;">This demo includes <em>enterprise</em>, also known as <em>Premium</em> features.</h5>
-    
-    <h5 style="text-align: center;">Try out these features as provided in this full featured example.</h5>
-    
-    <h5 style="text-align: center;">And visit the <a href="https://www.tiny.cloud/pricing">pricing page</a> to learn more about our Premium plugins.</h5>
-    
-    <h2>Got questions or need help?</h2>
-    
-    <ul>
-      <li>Our <a class="mceNonEditable" href="https://www.tiny.cloud/docs/tinymce/6/">documentation</a> is a great resource for learning how to configure TinyMCE.</li>
-      <li>Have a specific question? Try the <a href="https://stackoverflow.com/questions/tagged/tinymce" target="_blank" rel="noopener"><code>tinymce</code> tag at Stack Overflow</a>.</li>
-      <li>We also offer enterprise grade support as part of <a href="https://www.tiny.cloud/pricing">TinyMCE premium subscriptions</a>.</li>
-    </ul>
-    
-    <h2>A simple table to play with</h2>
-    
-      <table style="border-collapse: collapse; width: 100%;" border="1">
-        <thead>
-          <tr style="text-align: left;">
-            <th>Product</th>
-            <th>Cost</th>
-            <th>Really?</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>TinyMCE Cloud</td>
-            <td>Get started for free</td>
-            <td><strong>Yes!</strong></td>
-          </tr>
-          <tr>
-            <td>Plupload</td>
-            <td>Free</td>
-            <td><strong>Yes!</strong></td>
-          </tr>
-        </tbody>
-      </table>
-    
-    
-    <h2>Character strings to demonstrate some of the Advanced Typography plugin’s features</h2>
-    
-    <p>Select the characters in the list below and choose <strong>Tools → Typography → Enhance</strong>.</p>
-    
-    <ul style="list-style-type: none;">
-        <li>Not really an arrow glyph: -></li>
-        <li>"Double tear-drop quotation marks and apostrophes aren't typographically elegant."</li>
-        <li>But they should be honored in a <code>code-fragment: "true"</code>.</li>
-        <li>(c) symbol</li>
-        <li>(tm) symbol</li>
-        <li>30C is 86F</li>
-    </ul>
-    
-    <h2>Note on the included Advanced Template demonstration</h2>
-    
-    <p>The included Advanced Template demonstration uses the <a class="mceNonEditable" href="https://www.tiny.cloud/docs/tinymce/6/advanced-templates/#advtemplate_list"><code>advtemplate_list</code></a> configuration option to return a local promise containing a basic Template structure with self-contained examples.</p>
-    
-    <p>This example allows for the loading of and interacting with the Advanced Template user-interface but cannot be used to create, edit, or save Template items.</p>
-    
-    <p>See the <a class="mceNonEditable" href="https://www.tiny.cloud/docs/tinymce/6/advanced-templates/">Advanced Templates</a> documentation for details on how to setup Advanced Templates to interact with external data sources.</p>
-    
-    <h2>Found a bug?</h2>
-    
-    <p>If you think you have found a bug please create an issue on the <a href="https://github.com/tinymce/tinymce/issues">GitHub repo</a> to report it to the developers.</p>
-    
-    <h2>Finally…</h2>
-    
-    <p>Don’t forget to check out our other product <a href="http://plupload.com" target="_blank">Plupload</a>, your ultimate upload solution featuring HTML5 upload support.</p>
-    
-    <p>Thanks for supporting TinyMCE! We hope it helps you and your users create great content.</p>
-    
-    <p>All the best from the TinyMCE team.</p>
-    
-    </textarea>
+<div id="logo-institution">
+  <div class="auto-sized-div" style="text-align: center;"><strong>CNRPS Ariana</strong></div>
+  </div>
+  <div id="welcome-message">
+  <div class="auto-sized-div" style="text-align: left;"><span style="font-size: 10pt;">17-07-2023</span></div>
+  <div class="auto-sized-div" style="text-align: left;"><span style="font-size: 36pt;"><span style="font-family: 'courier new', courier, monospace;"><span style="font-size: 10pt;">خدمات&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style="font-size: 36pt;">&nbsp;</span></span></span>B - 100</span></div>
+  </div>
+  <div id="customer-position" style="text-align: center;">
+  <div class="auto-sized-div" style="text-align: left;"><span style="font-size: 10pt; font-family: 'courier new', courier, monospace;">Ticket N&ordm;</span></div>
+  <div id="customer-position-number" class="auto-sized-div" style="text-align: right;"></div>
+  </div>
+  <div id="queue" style="text-align: center;"></div>
+  <div id="date">
+  <div id="date-time" class="auto-sized-div" style="text-align: left;"></div>
+  <div class="auto-sized-div" style="text-align: left;"><span style="font-size: 10pt;">17-07-2023&nbsp; 16:13&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="font-size: 14pt;">70 Clients en attente</span></span></div>
+  </div>

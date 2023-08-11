@@ -8,9 +8,13 @@ use Illuminate\Support\Facades\File;
 
 class UserController extends Controller
 {
+    //Show Landing Page
+    public function index(){
+        return view('landingPage');
+    }
     
     //Show View Mode Page
-    public function index() {
+    public function showLandingView() {
 
         $templates = File::files(resource_path('views/dashboard/templates'));
 
@@ -47,7 +51,7 @@ class UserController extends Controller
     
 
     //Show Templates
-    public function show(string $templateName) {
+    public function showTemplateView(string $templateName) {
 
         $templates = File::files(resource_path('views/dashboard/templates'));
         $templatePath = resource_path('views/dashboard/templates/' . $templateName);

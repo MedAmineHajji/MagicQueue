@@ -19,7 +19,7 @@ use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 //Show Landing Page
 Route::get('/', [
-    DashboardController::class, 'index'
+    UserController::class, 'index'
 ]);
 
 
@@ -46,19 +46,19 @@ Route::get('/dashboard', [
 ])->middleware('auth');
 
 //Show Dashboard customizing template
-Route::get('/dashboard/{templateName}', [
-    DashboardController::class, 'show'
+Route::get('/dashboard/{templateName}?', [
+    DashboardController::class, 'dashboardLanding'
 ])->middleware('auth');
 
 
 //Show ViewMode Landing Page
 Route::get('/view', [
-    UserController::class, 'index'
+    UserController::class, 'showLandingView'
 ]);
 
 //Show A template
 Route::get('/view/{templateName}', [
-    UserController::class, 'show'
+    UserController::class, 'showTemplateView'
 ]);
 
 
